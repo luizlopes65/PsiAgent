@@ -2,6 +2,7 @@
 
 O **PsiAgent** é uma solução *open-source* projetada para psicólogos clínicos que desejam o poder da Inteligência Artificial na gestão de seus consultórios, sem comprometer o sigilo dos dados dos pacientes. Todo o processamento (Banco de Dados e LLM) ocorre localmente na máquina do profissional, eliminando riscos de vazamento em nuvem.
 O projeto foi criado com intuito didático, focando em aprender como FastAPI, React, MCP e lógica agêntica conversam.
+Nota: Como o projeto é completamente local, ele está sujeito a capacidade computacional local do usuário. Os modelos escolhidos, por padrão, são pequenos.
 
 ![Status](https://img.shields.io/badge/Status-Beta_v2.0-purple)  
 ![Stack](https://img.shields.io/badge/Tech-FastAPI_React_SQLite-blue)  
@@ -78,7 +79,7 @@ poetry run python mcp_server.py
 
 #### Terminal 2: API FastAPI
 ```bash
-poetry run python main.py
+poetry run uvicorn main:app --reload --port 8001
 ```
 → Roda em `http://127.0.0.1:8001` (config via .env)
 
@@ -86,10 +87,10 @@ poetry run python main.py
 ```bash
 ollama serve
 ```
-→ Certifique-se que está rodando com um modelo (ex: ministral-3:3b)
+→ Certifique-se que está rodando com algum modelo (ex: ministral-3:3b)
 
 ---
-## ⚙️ Sistema de Configuração (v2.1+)
+## ⚙️ Sistema de Configuração
 
 Todas as configurações usam **variáveis de ambiente** para máxima robustez:
 
