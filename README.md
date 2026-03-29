@@ -1,7 +1,9 @@
 # 🧠 PsiAgent - Assistente Clínico Local
 
 O **PsiAgent** é uma solução *open-source* projetada para psicólogos clínicos que desejam o poder da Inteligência Artificial na gestão de seus consultórios, sem comprometer o sigilo dos dados dos pacientes. Todo o processamento (Banco de Dados e LLM) ocorre localmente na máquina do profissional, eliminando riscos de vazamento em nuvem.
+
 O projeto foi criado com intuito didático, focando em aprender como FastAPI, React, MCP e lógica agêntica conversam.
+
 Nota: Como o projeto é completamente local, ele está sujeito a capacidade computacional local do usuário. Os modelos escolhidos, por padrão, são pequenos.
 
 ![Status](https://img.shields.io/badge/Status-Beta_v2.0-purple)  
