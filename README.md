@@ -1,8 +1,7 @@
-# 🧠 PsiAgent - Assistente Clínico Local (v2.0)
-
-> **Privacidade Total. Inteligência Local. Design "Cyber-Clinical".**
+# 🧠 PsiAgent - Assistente Clínico Local
 
 O **PsiAgent** é uma solução *open-source* projetada para psicólogos clínicos que desejam o poder da Inteligência Artificial na gestão de seus consultórios, sem comprometer o sigilo dos dados dos pacientes. Todo o processamento (Banco de Dados e LLM) ocorre localmente na máquina do profissional, eliminando riscos de vazamento em nuvem.
+O projeto foi criado com intuito didático, focando em aprender como FastAPI, React, MCP e lógica agêntica conversam.
 
 ![Status](https://img.shields.io/badge/Status-Beta_v2.0-purple)  
 ![Stack](https://img.shields.io/badge/Tech-FastAPI_React_SQLite-blue)  
@@ -10,16 +9,16 @@ O **PsiAgent** é uma solução *open-source* projetada para psicólogos clínic
 
 ---
 
-## ✨ Funcionalidades Atuais
+## Funcionalidades
 
-### 🛡️ Core & Backend (Python)
+### Core & Backend (Python)
 
 - **Arquitetura MCP (Model Context Protocol):** Separação limpa entre o agente IA (LangGraph em `helpers/`) e as ferramentas (`mcp_server/`).
 - **Persistência Zero-Config:** **SQLite** nativo em `db/clinical_data.db`, garantindo portabilidade instantânea sem Docker.
 - **Memória Contextual:** Utilização do `LangGraph` com `MemorySaver` para manter o contexto da conversa ativo durante o atendimento.
 - **API Segura:** FastAPI servindo endpoints protegidos via `Bearer Token`, com validação Pydantic rigorosa.
 
-### 🎨 Interface (React)
+### Interface (em React)
 
 - **Smart Rendering:** Suporte nativo a **Markdown** no chat (listas, negritos, tabelas) para estruturação de anotações clínicas.
 - **Gestão Visual de Pacientes:**
@@ -30,24 +29,24 @@ O **PsiAgent** é uma solução *open-source* projetada para psicólogos clínic
 
 ---
 
-## 🚀 Estrutura Modular (v2.0+)
+## Estrutura
 
-O código foi reorganizado em módulos independentes para melhor manutenibilidade:
+O código foi reorganizado em módulos independentes para melhor manutenção:
 
 ```
 psiagent/
-├── db/              # 🗄️ Modelos de Banco de Dados (SQLAlchemy)
-├── main/            # 🚀 FastAPI App (Endpoints HTTP)
-├── mcp_server/      # 🔧 Servidor MCP (Clinical Tools)
-├── helpers/         # 🛠️ Agente IA & Prompts (LangGraph)
-└── psi-interface/   # 🎨 Frontend React
+├── db/              #  Modelos de Banco de Dados (SQLAlchemy)
+├── main/            #  FastAPI App (Endpoints HTTP)
+├── mcp_server/      #  Servidor MCP (Clinical Tools)
+├── helpers/         #  Agente IA & Prompts (LangGraph)
+└── psi-interface/   #  Frontend React
 ```
 
 Detalhes em [STRUCTURE.md](STRUCTURE.md).
 
 ---
 
-## 🚀 Como Rodar (Desenvolvimento)
+##  Como Rodar (Desenvolvimento)
 
 ### Pré-requisitos
 
