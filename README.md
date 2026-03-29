@@ -142,22 +142,6 @@ poetry run python config.py
 
 Exibe todas as variáveis de ambiente ativas (LLM, API, MCP, Database, etc).
 
-### Testar Streaming em Tempo Real
-
-```bash
-# Certifique-se que a API está rodando em outro terminal, depois:
-poetry run python test_streaming.py
-```
-
-✅ Se receber tokens, o streaming está 100% funcional!
-
-Output esperado:
-```
-✅ Conexão estabelecida (Status: 200)
-📝 Token recebido: "Sou um assistente clínico..."
-✅ Streaming concluído!
-```
-
 ---
 
 ### 2. Frontend (UI)
