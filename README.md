@@ -32,6 +32,17 @@ Nota: Como o projeto é completamente local, ele está sujeito a capacidade comp
 
 ---
 
+<img width="1657" height="957" alt="image" src="https://github.com/user-attachments/assets/869a7808-b85b-4f81-af2b-d20b8371b9da" />
+<img width="1645" height="956" alt="image" src="https://github.com/user-attachments/assets/2f02bb52-4c70-4acf-8a7e-caa509993b15" />
+<img width="1651" height="942" alt="image" src="https://github.com/user-attachments/assets/443057b4-9a8b-4a34-a899-cd46abb3bada" />
+<img width="1637" height="942" alt="image" src="https://github.com/user-attachments/assets/527b897b-220b-442f-b5ed-ce09c88e5693" />
+<img width="407" height="918" alt="image" src="https://github.com/user-attachments/assets/12a0be48-4635-4077-9699-f8823bc0acc4" />
+
+
+
+
+
+
 ## Estrutura
 
 O código foi reorganizado em módulos independentes para melhor manutenção:
