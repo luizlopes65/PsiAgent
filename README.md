@@ -118,7 +118,7 @@ API_HOST=0.0.0.0          # Aceitar conexões externas
 | `MCP_PORT` | `8000` | Porta do MCP |
 | `DEBUG` | `true` | Modo debug |
 | `RELOAD` | `true` | Auto-reload uvicorn |
-| `API_SECRET` | `admin` | Token autenticação (⚠️ trocar) |
+| `API_SECRET` | (você seta) | Token autenticação  |
 
 ### Consultar Configurações Ativas
 
